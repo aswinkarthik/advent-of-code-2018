@@ -4,5 +4,10 @@ set -e
 
 cd "$(dirname "$0")"
 
-gcc -o chronal-caliberation.o chronal-caliberation.c
-cat input.txt | ./chronal-caliberation.o
+echo 'Problem 1'
+gcc -o chronal-caliberation-1.o chronal-caliberation-1.c
+cat input.txt | ./chronal-caliberation-1.o
+
+echo 'Problem 2'
+gcc -o chronal-caliberation-2.o chronal-caliberation-2.c
+cat input.txt | ./chronal-caliberation-2.o
