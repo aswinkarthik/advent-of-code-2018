@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+cd "$(dirname "$0")"
+
+cat input.txt | python3 inventory_management_system.py
